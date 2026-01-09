@@ -5,6 +5,9 @@
 }
 
 /* shared style */
+.btn1:hover{
+    background-color: rgba(252, 124, 107, 0.726);
+}
 .btn1{
     background-color: rgba(70, 145, 101, 1);
     color: white;
@@ -14,7 +17,11 @@
     font-weight: 600px;
     text-align: center;
     border: none;
-}
+    cursor: pointer;
+    }
+    .btn2:hover{
+        background-color: rgba(252, 124, 107, 0.726);
+    }
 .btn2{
     background-color: transparent;
     border: 1px solid white;
@@ -23,8 +30,10 @@
     font-size: 16px;
     font-weight: 600px;
     color: white;
-
+    cursor: pointer;
 }
+
+
 header{
     /* background-image:url(./Sections/Banner.png); */
     max-width: 1600px;
@@ -124,20 +133,24 @@ margin-bottom: 16px;
 
 #products .product-box {
     display: flex;
-    justify-content: space-between;
+     justify-content: space-between;
     align-items: center;
     padding: 24px;
-    margin: 0 120px;
+    margin: 0 100px;
     gap: 24px
 
 }
+.product-card:hover{
+    background-color: antiquewhite;
+}
 .product-box .product-card{
-    width: 320px;
+    width: 330px;
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 16px;
     padding: 24px;
     border-radius: 8px;

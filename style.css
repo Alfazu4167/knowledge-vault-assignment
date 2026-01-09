@@ -68,6 +68,7 @@ nav ul a{
     padding: 70px 120px 134px 120px;
     margin-bottom: 80px;
 }
+
 .banner-content .content-title{
     font-size: 16px;
     font-weight: 500px;
@@ -75,8 +76,8 @@ nav ul a{
     background-color: white;
     width: 229px;
     margin: 0 auto;
-    padding: 8px 12px;
-    border-radius: 1000px;
+    padding: 8px 10px;
+    border-radius: 40px;
     margin-bottom: 16px;
 }
 .banner-content .h1{
@@ -96,7 +97,12 @@ font-size: 72px;
     weight: 400px;
     color: #FFFFFF;
     line-height: 24px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
+}
+.banner-button{
+        display: flex;
+    justify-content: center;
+        gap: 20px;
 }
 
 #products .product-container .section-heading{
@@ -105,6 +111,7 @@ font-size: 72px;
 #products .product-container .section-heading h2{
 font-size: 48px;
 font-weight: 700;
+margin-bottom: 16px;
 }
 #products .product-container .section-heading p{
     font-size: 16px;
@@ -149,6 +156,7 @@ font-weight: 700;
     font-weight: 600px;
     line-height: 29px;
     text-align: center;
+    
 }
 .product-box .product-card p{
     font-size: 16px;
@@ -161,6 +169,7 @@ font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 60px;
     margin: 120px;
 }
 .section4 .sectoin4-image{
@@ -183,6 +192,7 @@ font-weight: 700;
     font-style: bold;
     font-weight: 700px;
     font-size: 48px;
+    line-height: 58px;
     margin-bottom: 16px;
 }
 .section4 .section4-content .section4-text{
@@ -211,4 +221,69 @@ font-weight: 700;
 }
 .section4 .section4-content ul i{
     color: #30B868;
+}
+.section5{
+    align-items: center;
+    text-align: center;
+    margin: 0 120px 120px 120px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+ .section5 div h3{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.section5 p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: #627382;
+}
+footer{
+    background-color: #001931;
+    max-width: 1450px;
+    height: 348px;
+   
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 120px 120px 80px 120px;
+    }
+
+    .Social .Social-content h4{
+        color: white;
+        font-size: 20px;
+        font-family: 500px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+.Social .social-image{
+    color: white;
+    text-align: center;
+}
+
+hr{
+margin: 0 120px;
+border: 1px solid  rgba(229, 231, 235, 1));
+opacity: 0.2;
+}
+
+.copyright{
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-top: 30px;
+    
+
+    /* margin-bottom: 30px; */
 }

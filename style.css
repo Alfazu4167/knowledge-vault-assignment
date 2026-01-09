@@ -27,12 +27,14 @@
 }
 header{
     /* background-image:url(./Sections/Banner.png); */
-    max-width: 1140px;
+    max-width: 1600px;
 }
 /* nav style */
 
 nav .logo{
     display: flex;
+    /* width: 71%; */
+    /* max-width: 1600px; */
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px;
@@ -58,7 +60,7 @@ nav ul a{
     text-align: center;
     background: url(./assets/hero-bg.png);
     width: 100%;
-    max-width: 1400px;
+    max-width: 1450px;
     height: 550px;
     display: flex;
     flex-direction: column;
@@ -117,10 +119,13 @@ font-weight: 700;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px;
+    margin: 0 120px;
+    gap: 24px
 
 }
 .product-box .product-card{
- width: 320px;
+    width: 320px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -129,7 +134,7 @@ font-weight: 700;
     gap: 16px;
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.13);
 }
 .product-box .product-card img{
     background: rgba(249, 85, 85, 1);
@@ -151,4 +156,59 @@ font-weight: 700;
     line-height: 20px;
     text-align: center;
     color: #627382;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+.section4 .sectoin4-image{
+    /* width: 600px;
+    height: 600px; */
+    border-radius: 12px;
+}
+.section4 .section4-content{
+    /* padding: 80px; */
+}
+.section4 .section4-content .section4-title{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.section4 .section4-content h3{
+    color: #001931;
+    font-style: bold;
+    font-weight: 700px;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.section4 .section4-content .section4-text{
+    color: #627382;
+    line-height: 20px;
+    weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.section4 .section4-content ul{
+    list-style: none;
+   font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.section4 .section4-content ul li{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #001931;
+}
+.section4 .section4-content ul i{
+    color: #30B868;
 }

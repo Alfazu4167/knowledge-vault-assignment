@@ -9,12 +9,24 @@
     background-color: rgba(70, 145, 101, 1);
     color: white;
     padding: 12.5px 16px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 600px;
+    text-align: center;
+}
+.btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 12.5px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: white;
+    
 }
 header{
     /* background-image:url(./Sections/Banner.png); */
+    max-width: 1140px;
 }
 /* nav style */
 
@@ -37,4 +49,47 @@ nav ul a{
     font-size: 16px;
     font-weight: 500px;
      color: rgba(0, 0, 0, 1);
+}
+
+/* hero style */
+#banner{
+
+    text-align: center;
+    background: url(./assets/hero-bg.png);
+    width: 100%;
+    max-width: 1400px;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-content .content-title{
+    font-size: 16px;
+    font-weight: 500px;
+    color: green;
+    background-color: white;
+    width: 229px;
+    margin: 0 auto;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+}
+.banner-content .h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+.banner-content .h11 {
+font-size: 72px;
+    font-weight: bold;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.banner-content .content-text{
+    /* padding: 70px 120px 134px 120px; */
+    font-size: 18px;
+    weight: 400px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 16px;
 }

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.btn1{
+    background-color: rgba(70, 145, 101, 1);
+    color: white;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+header{
+    /* background-image:url(./Sections/Banner.png); */
+}
+/* nav style */
+
+nav .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+    background-color: rgba(255, 255, 255, 1);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+   
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500px;
+     color: rgba(0, 0, 0, 1);
+}
